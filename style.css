@@ -1,0 +1,163 @@
+@font-face {
+  font-family: "TTLakes";
+  src: url(./assets/fonts/TTLakes-Regular.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "TTLakes";
+  src: url(./assets/fonts/TTLakes-Bold.ttf);
+  font-weight: bold;
+}
+
+body {
+  width: 320px;
+  margin: 0;
+  font-family: "TTLakes";
+  font-weight: normal;
+}
+
+.header__close {
+  margin-left: 24px;
+  margin-right: 10px;
+  padding: 0;
+  border: none;
+  background: white;
+}
+
+.header__search {
+  padding-left: 70px;
+  border: none;
+  background: white;
+}
+
+.header__block__groop {
+  top: 18.73px;
+  left: 80.73px;
+  border: none;
+  background: white;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+.main__roster {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 0;
+}
+
+.main__menu {
+  padding-top: 20px;
+}
+
+.footer__phone {
+  border: none;
+  background: white;
+  padding: 0;
+  margin: 20px 0px 10px 24px;
+}
+
+.footer__chat {
+  border: none;
+  background: white;
+  padding: 0;
+  margin: 0px 0px 10px 10px;
+}
+
+.footer__profile {
+  border: none;
+  background: white;
+  padding: 0;
+  margin: 10px;
+  margin: 0px 10px 10px 10px;
+}
+
+.footer__contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__mail {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 24px;
+}
+
+.footer__number {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  margin: 10px 0px 10px 24px;
+  font-family: "TTLakes";
+  font-weight: bold;
+}
+
+.footer__language {
+  margin: 25px 0px 10px 24px;
+}
+
+.link:hover {
+  margin: 0;
+  padding: 0;
+  color: #7e7e82;
+}
+
+.main__roster__item {
+  list-style: none;
+  line-height: 30px;
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.main__roster__item:hover {
+  margin-left: 0px;
+}
+
+.main__roster__item:hover::before {
+  content: "";
+  padding-left: 0;
+  display: block;
+  width: 3px;
+  height: 20px;
+  background-color: #41f6d7;
+  margin-right: 28px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.section__block {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: white;
+  box-shadow: 0 0 50px 1px #a2a6b1;
+}
+
+.footer__ru:hover {
+  color: #7e7e82;
+  cursor: pointer;
+}
+
+.footer__en:hover {
+  color: #7e7e82;
+  cursor: pointer;
+}
+
+.footer__ch:hover {
+  color: #7e7e82;
+  cursor: pointer;
+}
+
+.header__block {
+  margin-top: 20px;
+}
