@@ -11,7 +11,8 @@
 }
 
 body {
-  width: 320px;
+  min-width: 320px;
+  width: 100vw;
   margin: 0;
   font-family: "TTLakes";
   font-weight: normal;
@@ -159,5 +160,20 @@ body {
 }
 
 .header__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin-top: 20px;
+}
+
+.header__block__1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  body {
+    max-width: 320px;
+  }
 }
